@@ -1,5 +1,5 @@
 REQUIRES COMPUTERCRAFT
-this cosing language is similar
+this coding language is similar
 to assembly but it is built on
 librarys at every start of a program
 put "lib wip/addons" that will include
