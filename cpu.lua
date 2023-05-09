@@ -84,5 +84,5 @@ end
 function cpu.label(index,name)
 cpu.labels[name] = index
 end
---end
+--end bye
 return cpu
