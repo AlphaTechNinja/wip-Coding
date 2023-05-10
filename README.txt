@@ -25,4 +25,4 @@ to add librarys check the wiki on github
 -------------------------------
 How to install
 ok so now a installer exist to install run command "wget https://raw.githubusercontent.com/AlphaTechNinja/wip-Coding/main/install.lua wipInstall.lua"
-and run file "wipInstall.lua" to download then your all set also if you are on a server with no http then i will try to turn it into a single copy and paste string
+and run file "wipInstall.lua" to download then your all set also if you are on a server with no http then i will try to turn it into a single copy and paste string, to update date delete file wipInstall.lua then rerun install command and run the file again also delete the existing "wip" so there arent any overwrite errors
