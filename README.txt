@@ -24,10 +24,5 @@ thats all current extra librarys
 to add librarys check the wiki on github
 -------------------------------
 How to install
-currently there isn't a good way to
-download this program so you will have
-to manually download and put it in the
-computer folder if you are in a server
-then /:
-i am working on a installer it might take a little while to put all the urls into one file because i have
-over 5 files and there are folders
+ok so now a installer exist to install run command "wget https://raw.githubusercontent.com/AlphaTechNinja/wip-Coding/main/install.lua wipInstall.lua"
+and run file "wipInstall.lua" to download then your all set also if you are on a server with no http then i will try to turn it into a single copy and paste string
