@@ -1,5 +1,0 @@
-include wip/addons/io.lua:
-include wip/extras/fs.lua:
-open wip/demo/test.lua r:
-out !1:
-jid 4 !1:
