@@ -10,7 +10,7 @@ file.close()
 end
 --roots
 local base = "wip/"
-local baseurl = "https://raw.githubusercontent.com/AlphaTechNinja/wip-Coding/main/"
+local baseurl = "https://raw.githubusercontent.com/AlphaTechNinja/wip-Coding/Open-Computers-edition-v1/"
 --file
 local function file(name)
 download(name,name,base,baseurl)
