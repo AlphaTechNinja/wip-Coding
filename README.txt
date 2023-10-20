@@ -28,4 +28,4 @@ ok so now a installer exist to install run command "wget https://raw.githubuserc
 and run file "wipInstall.lua" to download then your all set also if you are on a server with no http then i will try to turn it into a single copy and paste string, to update delete file wipInstall.lua then rerun install command and run the file again also delete the existing "wip" so there arent any overwrite errors
 
 --UPDATE
-When i release AlphaOS this is going to be a included with the default system utils
+When i release AlphaOS this is going to be a included tool with the default system utils
