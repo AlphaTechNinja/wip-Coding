@@ -1,3 +1,5 @@
+local event = require("event")
+local serialisation = require("serialisation") or dofile("wip/serialisation.lua")
 --gets values from token
 local get = {}
 get.hex = {["0"] = 0,["1"] = 1,["2"] = 2,["3"] = 3,["4"] = 4,["5"] = 5,["6"] = 6,["7"] = 7,["8"] = 8,["9"] = 9,A = 10,B = 11,C = 12,D = 13,E = 14,F = 15}
@@ -5,19 +7,19 @@ local mouse = {0,0}
 local funcs = {}
 --pull event filter
 local function filter(excepted)
-local got = {os.pullEventRaw()}
+local got = {event.pull()}
 while not excepted[got[1]] do
-got = {os.pullEventRaw()}
+got = {event.pull()}
 end
 return table.unpack(got)
 end
 --function type values
 function funcs.key()
-local env,key = os.pullEvent("key")
+local env,key = filter("key_down")
 return key
 end
 function funcs.time()
-return os.time()
+return computer.uptime()
 end
 --[[
 function funcs.mx()
@@ -33,7 +35,7 @@ if type(value) == "number" then
 return value
 end
 if type(value) == "table" then
-return textutils.serialise(value)
+return serialisation.serialise(value)
 end
 --hex
 if value:sub(1,2) == "0x" then
