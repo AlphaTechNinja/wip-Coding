@@ -1,7 +1,8 @@
+local filesystem = require("filesystem")
 --runs a file
 local args = {...}
 local path = table.remove(args,1)
-local file = fs.open(path,"r")
+local file = filesystem.open(path,"r")
 local code = file.readAll()
 print("data:")
 print(code)
