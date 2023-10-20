@@ -1,4 +1,4 @@
-REQUIRES JUST ABOUT ANY OPENOS SYSTEM
+REQUIRES JUST ABOUT ANY OPENCOMPUTERS SYSTEM
 this coding language is similar
 to assembly but it is built on
 librarys at every start of a program
