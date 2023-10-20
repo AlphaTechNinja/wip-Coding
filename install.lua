@@ -1,7 +1,9 @@
+local filesystem = require("filesystem")
+local http = require("http") or component.internet
 --install template
 local function download(url,path,b,bu)
 print(bu..url.."->"..b..path)
-local file = fs.open(b..path,"w")
+local file = filesystem.open(b..path,"w")
 local data = http.get(bu..url)
 file.write(data.readAll())
 file.close()
