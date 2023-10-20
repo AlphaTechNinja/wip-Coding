@@ -1,11 +1,11 @@
 REQUIRES JUST ABOUT ANY OPENCOMPUTERS SYSTEM
-*requirements
+*requirements*
 requires core functions:
 dofile(...) : (...)->any
 event.pull(filter: string) : ...
 specs:
 a basic terminal output
-*info
+*info*
 this coding language is similar
 to assembly but it is built on
 librarys at every start of a program
